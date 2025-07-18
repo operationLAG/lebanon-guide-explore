@@ -2,7 +2,8 @@
 
 # The backend option specifies how to access the content for your site
 backend:
-  name: git-gateway
+  name: github
+  repo: operationLAG/lebanon-guide-explore
   branch: master # The branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts https://www.decapcms.org/docs/add-to-your-site/#editorial-workflow
