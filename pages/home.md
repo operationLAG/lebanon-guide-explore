@@ -1,22 +1,36 @@
+
 ---
-layout: layouts/home.njk
 title: Home
-date: 2016-01-01T00:00:00.000Z
-permalink: /
-eleventyNavigation:
-  key: Home
-  order: 0
+layout: layouts/base.njk
 ---
-# Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.dev), with deployment to [Netlify](https://www.netlify.com).
+<section class="hero">
+  <div class="hero-content">
+    <h1>961explore</h1>
+    <p class="tagline">Lebanon's First AI-Powered Guide</p>
+    <p class="sub-tagline">
+      Discover booming businesses, hidden nature, and life-changing adventures — curated by AI.
+    </p>
+    <a href="#explore" class="btn">Explore Now</a>
+  </div>
+</section>
 
-Includes [Decap CMS](https://www.decapcms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+<section id="explore" class="content-block">
+  <h2>🔥 This Week's Picks</h2>
+  <p>Fresh discoveries across Lebanon. AI-picked highlights updated weekly.</p>
+</section>
 
-[Log in to the Decap CMS dashboard](/admin/)
+<section class="content-block">
+  <h2>🏞 Top Nature Spots</h2>
+  <p>Explore waterfalls, forests, hikes, and untouched nature around Lebanon.</p>
+</section>
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+<section class="content-block">
+  <h2>🚀 Trending Businesses</h2>
+  <p>The most talked-about startups, cafés, and brands — booming in 2025.</p>
+</section>
 
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+<section class="content-block">
+  <h2>🔮 AI Weekend Suggestions</h2>
+  <p>Let AI pick your weekend for you — curated trails, cafés, and chill spots.</p>
+</section>
